@@ -1,6 +1,7 @@
 {
   "hosting": {
     "site": "word-buster-99508",
+    "public": "public",
     "rewrites": [
       {
         "source": "**",
@@ -9,4 +10,3 @@
     ]
   }
 }
-
