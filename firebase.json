@@ -1,36 +1,10 @@
 {
   "hosting": {
-    "site": "unity-crackdown",
-    "public": "Build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "headers": [
-      {
-        "source": "**/*.@(js|wasm)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=31536000, immutable"
-          }
-        ]
-      },
-      {
-        "source": "**/*.@(data|symbols|json)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      }
-    ],
+    "site": "word-buster-99508",
     "rewrites": [
       {
-        "source": "/google31b6b5a14d3e90df.html",
-        "destination": "/google31b6b5a14d3e90df.html"
+        "source": "**",
+        "destination": "https://firebasestorage.googleapis.com/v0/b/word-buster-99508.appspot.com/o/unity-webgl%2Findex.html"
       }
     ]
   }
