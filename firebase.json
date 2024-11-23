@@ -1,13 +1,18 @@
 {
   "hosting": {
-    "site": "unity-crackdown",
-    "public": ".",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
+    "public": "Build",
+    "headers": [
       {
-        "source": "/Build/**",
-        "destination": "/Build/"
-      },
+        "source": "**/*.@(data|framework.js|wasm|loader.js)",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/octet-stream"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
@@ -15,3 +20,6 @@
     ]
   }
 }
+
+
+
