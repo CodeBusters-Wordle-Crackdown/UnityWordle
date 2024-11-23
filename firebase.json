@@ -9,7 +9,7 @@
         "headers": [
           {
             "key": "Content-Encoding",
-            "value": "gzip"
+            "value": "br"
           },
           {
             "key": "Cache-Control",
@@ -30,3 +30,4 @@
     ]
   }
 }
+
