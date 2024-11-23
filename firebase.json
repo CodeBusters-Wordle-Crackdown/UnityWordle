@@ -2,7 +2,6 @@
   "hosting": {
     "site": "unity-crackdown",
     "public": ".",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "headers": [
       {
         "source": "**/*.@(data|framework.js|loader.js|wasm)",
@@ -30,4 +29,5 @@
     ]
   }
 }
+
 
