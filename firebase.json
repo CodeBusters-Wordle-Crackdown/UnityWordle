@@ -26,6 +26,13 @@
           }
         ]
       }
+    ],
+    "rewrites": [
+      {
+        "source": "/google31b6b5a14d3e90df.html",
+        "destination": "/google31b6b5a14d3e90df.html"
+      }
     ]
   }
 }
+
