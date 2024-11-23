@@ -1,7 +1,7 @@
 # Wordle-Crackdown
 Fierce wordle game play in a fresh approach
 
-https://codebusters-wordle-crackdown.github.io/WordleCrackdown/
+https://codebusters-wordle-crackdown.github.io/UnityWordle/
 
 # Detailed Instructions to Incorporate WebFront in your local device
 
