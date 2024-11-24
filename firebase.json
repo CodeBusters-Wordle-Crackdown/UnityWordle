@@ -1,25 +1,12 @@
 {
   "hosting": {
-    "public": "Build",
-    "headers": [
-      {
-        "source": "**/*.@(data|framework.js|wasm|loader.js)",
-        "headers": [
-          {
-            "key": "Content-Type",
-            "value": "application/octet-stream"
-          }
-        ]
-      }
-    ],
+    "site": "word-buster-99508",
+    "public": "public",
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "https://firebasestorage.googleapis.com/v0/b/word-buster-99508.appspot.com/o/unity-webgl%2Findex.html"
       }
     ]
   }
 }
-
-
-
